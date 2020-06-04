@@ -1,0 +1,478 @@
+
+@font-face {
+  font-family: "GothamRnd-Book";
+  src: url('../fonts/Gotham.otf');
+}
+
+
+html {
+  scroll-behavior: smooth;
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+.create-products:valid {
+  border: 1px solid green;
+}
+
+.create-products:invalid {
+  border: 1px solid red;
+}
+
+#form-products label{
+  font-size: medium; font-weight: bold; color:rgba(0, 0, 0, 0.5);
+}
+
+
+input[type="file"] {
+  font-size:0.85em; color:rgba(0, 0, 0, 0.5);
+}
+
+.custom-file-upload {
+
+  cursor: pointer;
+}
+
+
+body {
+  font-family: "GothamRnd-Book" !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.desativar {
+  border-radius: 40px;
+  border: 1px solid #df112f !important;
+  background-color: #df112f !important;
+  color: #ffffff !important;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.desativar:hover,
+.desativar:active {
+  border-radius: 40px;
+  border: 1px solid #dcdcdc !important;
+  background-color: #dcdcdc !important;
+  color: #555555 !important;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.acao {
+  border-radius: 40px;
+  border: 1px solid #f4d03b !important;
+  background-color: #f4d03b!important;
+  color: #555555 !important;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.acao:hover,
+.acao:active {
+  border-radius: 40px;
+  border: 1px solid #dcdcdc !important;
+  background-color: #dcdcdc !important;
+  color: #555555 !important;
+  font-weight: bolder;
+  text-align: center;
+}
+
+#intro {
+  background-color: rgba(0, 0, 0, 0.4) !important;
+}
+
+.campos {
+  border-radius: 40px !important;
+  color: black !important;
+  border: 2px solid #f4d03b !important;
+  background-color: white !important;
+  font-size: medium!important;
+}
+
+.label_form{
+  font-size: medium; font-weight: bold; color:rgba(0, 0, 0, 0.5);
+}
+
+.input_cadastro {
+  border-radius: 40px !important;
+  color: black !important;
+  border: 2px solid #02b6df !important;
+  background-color: white !important;
+  font-size: medium!important;
+}
+
+.titulo_banner{
+  color: #f4d03b;
+  font-size: large;
+}
+.titulo_banner p{
+  color: white;
+  font-size: large;
+}
+
+.menu_lateral li{
+    border: #f4f4f4;
+    background: #f4f4f4;
+    color: #484848 !important; 
+    border-left: solid 15px  #f4f4f4;
+    font-weight: bold;
+}
+
+.menu_lateral li:hover{
+  border: #f4f4f4;
+  border-left: solid 15px #3490dc;
+  text-decoration:none; 
+  background: #dcdcdc;
+  color: #3490dc !important
+}
+
+.menu_pedido {
+  border: #f4f4f4;
+  background: #f4f4f4;
+  color: #484848 !important; 
+  border-left: solid 15px  #f4f4f4;
+  font-weight: bold;
+}
+
+.menu_pedido :hover{
+border: #f4f4f4;
+border-left: solid 15px #3490dc;
+text-decoration:none; 
+background: #dcdcdc;
+color: #3490dc !important
+}
+
+#compra_product{
+    font-size: 21px;
+    font-weight: 700;
+    padding: 11px 0 13px;
+    margin-bottom: 0;
+    margin-right: 1%;
+    width: 100%;
+    max-width: 330px;
+    border-radius:40px;
+    border: 1px solid #f95240;
+    background: #f95240;
+}
+
+#compra_product:hover{
+  font-size: 21px;
+  font-weight: 700;
+  padding: 11px 0 13px;
+  margin-bottom: 0;
+  margin-right: 1%;
+  width: 100%;
+  max-width: 330px;
+  border-radius:40px;
+  border: 1px solid #3490dc;
+  background: #3490dc;
+}
+
+.ativo{
+  border: #f4f4f4;
+  border-left: solid 15px #f4d03b !important;
+  text-decoration:none; 
+  background: #dcdcdc !important;
+  color: #3490dc !important
+}
+
+.menu_categoria li:hover{
+  border: #f4f4f4;
+  border-left: solid 15px #36ae69;
+  text-decoration:none; 
+  background: #dcdcdc;
+  color: #36ae69 !important
+}
+
+.menu_tag li:hover{
+  border: #f4f4f4;
+  border-left: solid 15px #e91e63;
+  text-decoration:none; 
+  background: #dcdcdc;
+  color: #e91e63 !important
+}
+
+
+.btn_table_action{
+  border-radius: 40px;
+  border: 1px solid #484848  !important;
+  background-color: #5c5c5c  !important;
+  color: white !important;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.btn_categoria:hover{
+  border-radius: 40px;
+  border: 1px solid #dcdcdc !important;
+  background-color: white !important;
+  color: #36ae69 !important;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.btn_tag:hover{
+  border-radius: 40px;
+  border: 1px solid #dcdcdc !important;
+  background-color: white !important;
+  color: #e91e63 !important;
+  font-weight: bolder;
+  text-align: center;
+}
+
+a:link
+{
+text-decoration:none;
+}
+
+
+.menu_lateral {
+  position: relative;
+    border: 0;
+    border-radius: 0;
+    margin: 0 0 10px 0;
+    background: #f4f4f4;
+}
+
+
+#sub{
+  color: #02b6df;
+  font-weight: bold;
+}
+
+#produto:hover{
+  transition: all 0.5s;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+#fechar_pedido{
+    border-radius: 22.5px;
+    border: 1px solid #1428a0;
+    background: #1428a0;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 0;
+    text-decoration: none;
+    text-shadow: none;
+    border-radius: 25px;
+}
+
+
+#title {
+  border-left: solid 12px #e91e63;
+  color: #170085;
+}
+
+
+#menu li {
+  padding:3px;
+  margin:3px;
+  list-style:none;
+}
+
+#menu li a {
+  border-radius: 40px;
+  color: black;
+  background-color: #f4d03b;
+  font-size: medium;
+
+}
+
+
+#menu li a:hover {
+  color: white;
+  background: #f95240;
+}
+
+#menu ul li { display: inline; }
+
+
+.header-2 {
+  background: #f4f4f4;
+}
+
+
+.old-price{
+  text-decoration: line-through;
+}
+
+
+.level2{
+
+    background: #fff;
+    border: 1px solid #ccc; 
+    box-shadow: 0 5px 5px rgba(0,0,0,.19); 
+    font-weight: 400; 
+    min-width: 230px; 
+    padding: 15px 0; 
+    display: none; 
+    left: 0; 
+    margin: 0 !important; 
+    padding: 0;
+    position: absolute; 
+    z-index: 1; 
+    margin-top: 11px; 
+
+    background: #c11a26
+}
+
+
+.fora_estoque {
+
+  border-radius: 40px;
+  border: 1px solid #f95240 !important;
+  background-color: #f95240 !important;
+  color: white !important;
+  font-weight: bolder;
+  text-align: center;
+
+}
+
+
+#btn_comprar {
+
+  border-radius: 40px;
+  border: 1px solid #f4d03b !important;
+  background-color: #f4d03b !important;
+  color: #484848 !important;
+  font-weight: bolder;
+  text-align: center;
+
+}
+
+#btn_comprar:hover {
+
+  border-radius: 40px;
+  border: 1px solid #484848 !important;
+  background-color: #484848 !important;
+  color: #f4d03b !important;
+
+}
+
+#btn_login {
+
+  border-radius: 40px;
+  border: 1px solid #02b6df !important;
+  background-color: #02b6df !important;
+  color: white !important;
+  font-weight: bolder;
+  text-align: center;
+
+}
+
+#btn_login:hover {
+
+  border-radius: 40px;
+  border: 1px solid #02b6df !important;
+  background-color: white !important;
+  color: #02b6df !important;
+
+}
+
+#btn_cadastro {
+
+  border-radius: 40px;
+  border: 1px solid #f95240  !important;
+  background-color: #f95240 !important;
+  color: white !important;
+  font-weight: bolder;
+  text-align: center;
+
+}
+
+#btn_cadastro:hover {
+  border-radius: 40px;
+  border: 1px solid #f95240  !important;
+  background-color: #ffffff !important;
+  color: #f95240 !important;
+  
+}
+
+#buscar  {
+  border-radius: 40px;
+  border: 2px solid #f95240 !important;
+  background-color: #f95240 !important;
+  color: white !important;
+}
+
+
+#buscar:hover{
+  border-radius: 40px;
+  border: 2px solid #f4d03b !important;
+  background-color: #f4d03b !important;
+  color: #3a4449 !important;
+}
+
+
+#borda-input {
+  border-radius: 40px;
+  border: 1px solid #e0e0e2 !important;
+  background-color: #e0e0e2 ;
+  font-size: medium;
+  color: #484848 !important;
+}
+
+#myFooter {
+  background-color: #fefefe;
+  color: #170085;
+  padding-top: 10px;
+  margin: 0 !important;
+  width: 100%;
+}
+
+#myFooter .footer-copyright {
+  background-color: #484848;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  text-align: center;
+}
+
+#myFooter .row {
+  margin-bottom: 10px;
+}
+
+#myFooter .navbar-brand {
+  margin-top: 45px;
+  height: 65px;
+}
+
+#myFooter .footer-copyright p {
+  margin: 10px;
+  color: white;
+}
+
+#myFooter ul {
+  list-style-type: none;
+  padding-left: 0;
+  line-height: 1.7;
+}
+
+#myFooter h5 {
+  font-size: 18px;
+  color: #170085;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+#myFooter h2 a {
+  font-size: 50px;
+  text-align: center;
+  color: #555555;
+}
+
+#myFooter a {
+  color: #555555;
+  text-decoration: none;
+}
+
+#myFooter a:hover,
+#myFooter a:focus {
+  text-decoration: none;
+  color: #e91e63;
+}
+
